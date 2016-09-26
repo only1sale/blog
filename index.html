@@ -34,7 +34,7 @@ layout: default
 					{% include post_info.html position = 'left'%}
 					{% include post_info.html position = 'right'%}
 
-					{% for post in site.posts %}
+					{% for post in site.posts limit:3 %}
 					<article class="feature left">
 					  <span class="image"><img src="{{site.baseurl}}/images/pic02.jpg" alt="" /></span>
 					  <div class="content">
@@ -42,7 +42,7 @@ layout: default
 					    <p>{{post.meta}}</p>
 					    <ul class="actions">
 					      <li>
-					        <a href="{{post.source}}" class="button alt">More</a>
+					        <a href="{{site.baseurl}}{{post.url}}" class="button alt">More</a>
 					      </li>
 					    </ul>
 					  </div>
