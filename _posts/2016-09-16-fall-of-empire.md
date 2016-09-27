@@ -5,6 +5,7 @@ meta: Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctu
 src: #
 category: news
 image: images/pic11.jpg
+comments: true
 ---
 # Sale
 ## Minja
