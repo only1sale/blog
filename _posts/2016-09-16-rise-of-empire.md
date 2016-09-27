@@ -7,10 +7,11 @@ category: news
 image: images/pic11.jpg
 ---
 
-![alt text]({{sites.baseurl}}/images/pic11.jpg "Pic11 Title")
+![image-title-here]({{site.baseurl}}/images/pic10.jpg)
 Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus
+ libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus
+ ![image-title-here]({{site.baseurl}}/images/pic10.jpg)
 
 
-
- libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.
- ![alt text]({{sites.baseurl}}/images/pic11.jpg "Pic11 Title")
+  metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.
+ ![alt text]({{site.baseurl}}/images/pic10.jpg)
