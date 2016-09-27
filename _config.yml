@@ -2,4 +2,3 @@ markdown: kramdown
 baseurl: /blog
 permalink: pretty
 exclude: ['README.md']
-gems: [jekyll-admin]
