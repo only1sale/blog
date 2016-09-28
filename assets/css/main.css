@@ -3098,8 +3098,7 @@
 						background-color: rgba(144, 144, 144, 0.2);
 					}
 
-		@media only screen and (min-width: 360px)
-		and (-webkit-min-device-pixel-ratio: 3.0)
+		@media only screen and (max-width: 600px)
 		{
 			.wrapper.style2 {
 				display: none;
