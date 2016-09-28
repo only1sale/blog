@@ -3098,7 +3098,7 @@
 						background-color: rgba(144, 144, 144, 0.2);
 					}
 
-		@media screen and (max-width: 800px)
+		@media screen and (max-width: 1600px)
 		{
 			.wrapper.style2 {
 				display: none;
