@@ -87,103 +87,24 @@ subtitle: About me and this site
 						</div>
 					</div><!--// .yui-gf-->
 
+					{% for entry in site.data.about_data %}
 					<div class="yui-gf">
-
 						<div class="yui-u first">
-							<h2>Experience</h2>
-						</div><!--// .yui-u -->
+							<h2>{{entry.title}}</h2>
+						</div>
 
+						{% for exp in entry.subentry %}
 						<div class="yui-u">
-							<div class="job">
-								<h2>Zesium mobile</h2>
-								<h3>2 weeks Internship, Summer 2010</h3>
-								<p>Activities: Research of Augmented Reality technologies</p>
+							<div class="job {% if exp.last %}last{% endif %}">
+								<h2>{{exp.name}}</h2>
+								<h4>{{exp.time}}</h4>
+								<p>{{exp.activity}}</p>
 							</div>
+						</div>
+						{% endfor %}
 
-							<div class="job">
-								<h2>Zesium mobile</h2>
-								<h3>2 weeks Internship, Summer 2011</h3>
-								<p>Activities: Research of Navigation and Tracking technologies</p>
-							</div>
-
-							<div class="job">
-								<h2>Qualcomm Research Vienna</h2>
-								<h3>4 months Internship, Summer 2012 (4th of June 2012 – 3rd of October 2012)</h3>
-								<p>Activities: Working in area of Computer Vision and Augmented Reality</p>
-							</div>
-
-
-							<div class="job last">
-								<h2>Qualcomm Technologies, Inc. Vienna</h2>
-								<h3>2 months Internship extension, 2013 (7th of January 2013 – 8th of March 2013)</h3>
-								<p>Activities: Working in area of Computer Vision and Augmented Reality</p>
-							</div>
-
-						</div><!--// .yui-u -->
-					</div><!--// .yui-gf -->
-
-          <div class="yui-gf">
-
-						<div class="yui-u first">
-							<h2>Teaching</h2>
-						</div><!--// .yui-u -->
-
-						<div class="yui-u">
-              <div class="job">
-								<h2>Modeling and Simulation of Communication Systems</h2>
-								<h4>2014 - current</h4>
-                <p>Study Programm: Communications Technologies and Signal Processing</p>
-							</div>
-
-              <div class="job">
-								<h2>Development Tools for Communications and </br> Signal Processing 1</h2>
-								<h4>2014 - current</h4>
-                <p>Study Programm: Communications Technologies and Signal Processing</p>
-							</div>
-
-              <div class="job">
-								<h2>Development Tools for Communications and </br> Signal Processing 2</h2>
-								<h4>2015 - current</h4>
-                <p>Study Programm: Communications Technologies and Signal Processing</p>
-							</div>
-
-              <div class="job">
-								<h2>Wireless Ad-Hoc Networks</h2>
-								<h4>2015 - current</h4>
-                <p>Study Programm: Communications Technologies and Signal Processing</p>
-							</div>
-
-              <div class="job">
-								<h2>Principles of digital communications</h2>
-								<h4>2015 - current</h4>
-                <p>Study Programm: Communications Technologies and Signal Processing</p>
-							</div>
-
-              <div class="job">
-								<h2>Basics of Telecommunications</h2>
-								<h4>2015 - current</h4>
-                <p>Study Programm: Microcomputer Electronics</p>
-							</div>
-
-							<div class="job">
-								<h2>C/C++ Programming</h2>
-								<h4>2011 - 2014</h4>
-                <p>Study Programm: Communications Technologies and Signal Processing (internal course)</p>
-							</div>
-
-              <div class="job">
-								<h2>Communication Systems</h2>
-								<h4>2014 - 2015</h4>
-                <p>Study Programm: Biomedical Engineering</p>
-							</div>
-
-              <div class="job last">
-								<h2>Exploitation of Telecommunication Networks</h2>
-								<h4>2015</h4>
-                <p>Study Programm: Postal Traffic and Telecommunications</p>
-							</div>
-						</div><!--// .yui-u -->
-					</div><!--// .yui-gf -->
+					</div>
+					{% endfor %}
 
 
 					<div class="yui-gf">
