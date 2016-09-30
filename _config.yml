@@ -2,3 +2,8 @@ markdown: kramdown
 baseurl: /blog
 permalink: pretty
 exclude: ['README.md']
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+paginate: 3
